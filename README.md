@@ -43,8 +43,7 @@ Default remote dataset URL used in `Orchestration.py`:
   - `Loading_Data.py` — `load_data(df, ticker, output_dir='.')`: writes `Results/result_{TICKER}.csv`.
   - `Orchestration.py` — runner that ties extraction, transformation, and loading for the 10 tickers (uses the raw GitHub CSV by default but accepts a local filename like `Financial_Records.csv`).
 
-- No third-party TA libraries — all indicators computed with pandas vectorized operations (rolling mean and ewm).
-
+- Results are stored in Results/ folder with 10 csv files as intended.
 ---
 
 ## How to run (Quick Start)
